@@ -225,12 +225,12 @@ li {
 
 code, xmp {
     padding: .4rem;
-    background: #F1F1F1;
+    background: #DDD;
 }
 
 pre>code {
     display: block;
-    padding: 1rem 1.5rem;
+    padding: 1rem;
     white-space: pre;
 }
 
@@ -244,16 +244,6 @@ td {
     padding: 12px 15px;
     text-align: left;
     border-bottom: 1px solid #E1E1E1;
-}
-
-th:first-child,
-td:first-child {
-    padding-left: 0;
-}
-
-th:last-child,
-td:last-child {
-    padding-right: 0;
 }
 
 
