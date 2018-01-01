@@ -146,12 +146,10 @@ a:hover {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .btn {
-    display: inline-block;
     padding: 12px 20px;
     color: #555;
     text-align: center;
-    font-weight: 600;
-    letter-spacing: .1rem;
+    letter-spacing: .1em;
     text-transform: uppercase;
     background-color: inherit;
     border: 1px solid;
@@ -162,7 +160,7 @@ a:hover {
 
 .btn:hover,
 .btn:focus {
-    transform: scale(1.05);
+    transform: scale(1.03);
 }
 
 .btn.btn-primary {
