@@ -14,7 +14,7 @@
 .container {
     width: 100%;
     max-width: 960px;
-    margin: 0 auto;
+    margin: auto;
     padding: 0 20px;
 }
 .col {
@@ -222,14 +222,9 @@ li {
 
 code,
 xmp {
-    padding: .4em;
-    background: #F1F1F1;
-}
-
-pre>code {
-    display: block;
     padding: 1em;
-    white-space: pre;
+    background: #F1F1F1;
+    overflow-x: auto;
 }
 
 
