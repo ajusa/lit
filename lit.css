@@ -1,6 +1,6 @@
 /*
 * Lit v0.1
-* Primary Color set to: #FFA400;
+* Primary Color set to: #FA0;
 */
 
 * {
@@ -76,9 +76,7 @@
 }
 
 body {
-    font-size: 1rem;
-    line-height: 1.6;
-    font-family: "Nunito", sans-serif;
+    font: 1rem/1.6 "Nunito", sans-serif;
     color: #222;
 }
 
@@ -93,9 +91,7 @@ h4,
 h5,
 h6 {
     font-weight: 300;
-    line-height: 1.25;
-    margin-top: 1em;
-    margin-bottom: .5em;
+    margin: 1em 0 .5em 0;
 }
 
 h1 {
@@ -132,7 +128,7 @@ p {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 a {
-    color: #FFA400;
+    color: #FA0;
     text-decoration: none;
 }
 
@@ -165,7 +161,7 @@ a:hover {
 
 .btn.btn-primary {
     color: #FFF;
-    background-color: #FFA400;
+    background-color: #FA0;
     border: none;
 }
 
@@ -178,13 +174,13 @@ input,
 textarea,
 select {
     padding: 10px;
-    border: 1px solid #D1D1D1;
+    border: 1px solid #DDD;
 }
 
 input:focus,
 textarea:focus,
 select:focus {
-    border: 1px solid #FFA400;
+    border: 1px solid #FA0;
     outline: 0;
 }
 
@@ -207,7 +203,7 @@ ol {
 
 ol,
 ul {
-    padding-left: 0;
+    padding-left: 0; /*possibly delete the specific bit*/
     margin-top: 0;
 }
 
