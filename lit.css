@@ -177,8 +177,7 @@ select:focus {
     outline: 0;
 }
 
-label,
-legend {
+label {
     display: block;
     margin-bottom: .5em;
     font-weight: 600;
@@ -252,8 +251,7 @@ td {
 
 input,
 textarea,
-select,
-fieldset {
+select {
     margin-bottom: 1.5em;
 }
 
