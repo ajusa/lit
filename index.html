@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <!-- Set the title of your site here -->
-    <title>Lit </title>
+    <title>Lit</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,700" rel="stylesheet">
     <!-- Link to your stylesheet here -->
@@ -18,27 +18,37 @@
 </head>
 
 <body class="container">
-    <h1>Hey</h1>
-    <p>Welcome to Lit</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <h1>Lit</h1>
+    <p>a 939 byte (gzipped and minified) css framework</p>
     <h4>Menu</h4>
     <div class="row">
-        <div class="one column"><a href="#">Link</a> </div>
-        <div class="one column"><a href="#">Link</a> </div>
-        <div class="one column"><a href="#">Link</a> </div>
-        <div class="one column"><a href="#">Link</a> </div>
+        <div class="1 col"><a href="#">Link</a> </div>
+        <div class="1 col"><a href="#">Link</a> </div>
+        <div class="1 col"><a href="#">Link</a> </div>
+        <div class="1 col"><a href="#">Link</a> </div>
     </div>
     <hr>
     <button>Test Button</button>
     <br>
     <a href="#">Test</a>
+    <ul>
+        <li>Item 1</li>
+        <li>
+            Item 2
+            <ul>
+                <li>Item 2.1</li>
+                <li>Item 2.2</li>
+            </ul>
+        </li>
+        <li>Item 3</li>
+    </ul>
     <form>
         <div class="row">
-            <div class="six columns">
+            <div class="6 cols">
                 <label for="exampleEmailInput">Your email</label>
                 <input class="w-100" type="email" placeholder="test@mailbox.com" id="exampleEmailInput">
             </div>
-            <div class="six columns">
+            <div class="6 cols">
                 <label for="exampleRecipientInput">Reason for contacting</label>
                 <select class="w-100" id="exampleRecipientInput">
                     <option value="Option 1">Questions</option>
@@ -52,12 +62,35 @@
         <input type="checkbox">
         <span>Send a copy to yourself</span>
         <br>
-        <input class="btn btn-primary" type="submit" value="Submit">
+        <input class="btn-primary" type="button" value="Submit">
     </form>
-    <code>
-        p { color: red; }
-        body { background-color: #eee; }
-    </code>
+    <table class="w-100">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Age</th>
+      <th>Sex</th>
+      <th>Location</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Dave Gamache</td>
+      <td>26</td>
+      <td>Male</td>
+      <td>San Francisco</td>
+    </tr>
+    <tr>
+      <td>Dwayne Johnson</td>
+      <td>42</td>
+      <td>Male</td>
+      <td>Hayward</td>
+    </tr>
+  </tbody>
+</table>
+    <pre><code>.some-class {
+  background-color: red;
+}</code></pre>
 </body>
 
 </html>

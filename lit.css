@@ -3,6 +3,9 @@
 * Primary Color set to: #FFA400;
 */
 
+* {
+  box-sizing: border-box;
+}
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -12,86 +15,70 @@
     max-width: 960px;
     margin: 0 auto;
     padding: 0 20px;
-    box-sizing: border-box;
 }
 
-.column,
-.columns {
+.col,
+.cols {
     width: 100%;
     float: left;
-    box-sizing: border-box;
 }
 
 
 /* For devices larger than 400px */
 
-@media (min-width: 400px) {
-    .container {
-        width: 85%;
-        padding: 0;
-    }
-}
 
 
-/* For devices larger than 550px */
+/* For devices larger than 550px. The unicodes are the numbers 1-11
+*/
 
 @media (min-width: 550px) {
-    .container {
-        width: 80%;
-    }
-    .column,
-    .columns {
+    .col,
+    .cols {
         margin-left: 4%;
     }
-    .column:first-child,
-    .columns:first-child {
+    .col:first-child,
+    .cols:first-child {
         margin-left: 0;
     }
-    .one.column,
-    .one.columns {
-        width: 4.66666666667%;
+    .\31.col {
+        width: 4.67%;
     }
-    .two.columns {
-        width: 13.3333333333%;
+    .\32.cols {
+        width: 13.33%;
     }
-    .three.columns {
+    .\33.cols {
         width: 22%;
     }
-    .four.columns {
-        width: 30.6666666667%;
+    .\34.cols {
+        width: 30.67%;
     }
-    .five.columns {
-        width: 39.3333333333%;
+    .\35.cols {
+        width: 39.33%;
     }
-    .six.columns {
+    .\36.cols {
         width: 48%;
     }
-    .seven.columns {
-        width: 56.6666666667%;
+    .\37.cols {
+        width: 56.67%;
     }
-    .eight.columns {
-        width: 65.3333333333%;
+    .\38.cols {
+        width: 65.33%;
     }
-    .nine.columns {
-        width: 74.0%;
+    .\39.cols {
+        width: 74%;
     }
-    .ten.columns {
-        width: 82.6666666667%;
+    .\31 0.cols {
+        width: 82.67%;
     }
-    .eleven.columns {
-        width: 91.3333333333%;
-    }
-    .twelve.columns {
-        width: 100%;
-        margin-left: 0;
+    .\31 1.cols {
+        width: 91.33%;
     }
 }
 
 body {
     font-size: 1rem;
     line-height: 1.6;
-    font-weight: 400;
-    font-family: "Nunito", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Nunito", sans-serif;
     color: #222;
 }
 
@@ -147,7 +134,6 @@ p {
 a {
     color: #FFA400;
     text-decoration: none;
-    transition: opacity .15s ease-in;
 }
 
 a:hover {
@@ -159,11 +145,10 @@ a:hover {
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-.btn,
 button,
 input[type="button"] {
     display: inline-block;
-    padding: 12px 20px 12px 20px;
+    padding: 12px 20px;
     color: #555;
     text-align: center;
     font-weight: 600;
@@ -174,19 +159,15 @@ input[type="button"] {
     cursor: pointer;
     font-size: 12px;
     transition: all .2s ease-in-out;
-    box-sizing: border-box;
 }
 
-.btn:hover,
 button:hover,
 input[type="button"]:hover,
-.btn:focus,
 button:focus,
 input[type="button"]:focus {
     transform: scale(1.05);
 }
 
-.btn.btn-primary,
 button.btn-primary,
 input[type="button"].btn-primary {
     color: #FFF;
@@ -204,7 +185,6 @@ textarea,
 select {
     padding: 10px;
     border: 1px solid #D1D1D1;
-    box-sizing: border-box;
 }
 
 input:focus,
@@ -233,13 +213,12 @@ input[type="radio"] {
 
 /* Lists
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
 ul {
-    list-style: circle inside;
+    list-style: inside;
 }
 
 ol {
-    list-style: decimal inside;
+    list-style: inside;
 }
 
 ol,
@@ -252,12 +231,11 @@ ul ul,
 ul ol,
 ol ol,
 ol ul {
-    margin: 1.5rem 0 1.5rem 3rem;
-    font-size: 90%;
+    margin: 1rem 0 1rem 3rem;
 }
 
 li {
-    margin-bottom: 1rem;
+    margin-bottom: .5rem;
 }
 
 
@@ -267,9 +245,6 @@ li {
 
 code {
     padding: .4rem;
-    margin: 0 .2rem;
-    font-size: 90%;
-    white-space: nowrap;
     background: #F1F1F1;
 }
 
@@ -306,8 +281,7 @@ td:last-child {
 /* Spacing
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-button,
-.btn {
+button {
     margin-bottom: 1rem;
 }
 
@@ -318,17 +292,6 @@ fieldset {
     margin-bottom: 1.5rem;
 }
 
-pre,
-blockquote,
-dl,
-figure,
-table,
-p,
-ul,
-ol,
-form {
-    margin-bottom: 2.5rem;
-}
 
 
 
