@@ -146,6 +146,7 @@ p {
 
 a {
     color: #FFA400;
+    text-decoration: none;
     transition: opacity .15s ease-in;
 }
 
