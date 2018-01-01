@@ -12,22 +12,15 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .container {
-    position: relative;
     width: 100%;
     max-width: 960px;
     margin: 0 auto;
     padding: 0 20px;
 }
-
-.col,
 .col {
     width: 100%;
     float: left;
 }
-
-
-
-/* For devices larger than 400px */
 
 
 /* For devices larger than 550px. The unicodes are the numbers 1-11
