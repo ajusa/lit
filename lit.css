@@ -145,8 +145,7 @@ a:hover {
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-button,
-input[type="button"] {
+.btn {
     display: inline-block;
     padding: 12px 20px;
     color: #555;
@@ -161,15 +160,12 @@ input[type="button"] {
     transition: all .2s ease-in-out;
 }
 
-button:hover,
-input[type="button"]:hover,
-button:focus,
-input[type="button"]:focus {
+.btn:hover,
+.btn:focus {
     transform: scale(1.05);
 }
 
-button.btn-primary,
-input[type="button"].btn-primary {
+.btn.btn-primary {
     color: #FFF;
     background-color: #FFA400;
     border: none;
@@ -199,16 +195,6 @@ legend {
     display: block;
     margin-bottom: .5rem;
     font-weight: 600;
-}
-
-fieldset {
-    padding: 0;
-    border-width: 0;
-}
-
-input[type="checkbox"],
-input[type="radio"] {
-    display: inline;
 }
 
 /* Lists
@@ -243,7 +229,7 @@ li {
 /* Code
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-code {
+code, xmp {
     padding: .4rem;
     background: #F1F1F1;
 }
@@ -281,7 +267,7 @@ td:last-child {
 /* Spacing
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-button {
+.btn {
     margin-bottom: 1rem;
 }
 
