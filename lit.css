@@ -17,7 +17,7 @@
 .col {
     float: left;
 }
-.c,.col, .w-100{
+.c,.col,.w-100{
   width: 100%;
 }
 
@@ -121,7 +121,7 @@ a:hover {
     letter-spacing: .1em;
     text-transform: uppercase;
     background: unset;
-    border: 1px solid;
+    border: solid;
     cursor: pointer;
     font-size: 12px;
     transition: .2s;
@@ -143,14 +143,14 @@ input,
 textarea,
 select {
     padding: 12px;
-    border: 1px solid #E9E9E9;
+    border: solid #E9E9E9;
     margin: 0 0 1.5em;
 }
 
 input:focus,
 textarea:focus,
 select:focus {
-    border: 1px solid #FA0;
+    border: solid #FA0;
     outline: 0;
 }
 
@@ -185,7 +185,7 @@ th,
 td {
     padding: 12px;
     text-align: left;
-    border-bottom: 1px solid #E9E9E9;
+    border-bottom: solid #E9E9E9;
 }
 
 
@@ -196,7 +196,7 @@ td {
 
 hr {
     margin: 3em;
-    border: 1px solid #E9E9E9;
+    border: solid #E9E9E9;
 }
 
 .row:after {
