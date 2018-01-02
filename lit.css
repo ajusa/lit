@@ -12,7 +12,7 @@
 .c {
     max-width: 960px;
     margin: auto;
-    padding: 0 12px;
+    padding: 0 1em;
 }
 .col {
     float: left;
@@ -106,7 +106,7 @@ h5 {
 
 a {
     color: #FA0;
-    text-decoration: none;
+    text-decoration: unset;
 }
 
 a:hover {
@@ -115,7 +115,7 @@ a:hover {
 
 
 .btn {
-    padding: 12px 20px;
+    padding: 1em 20px;
     letter-spacing: .1em;
     text-transform: uppercase;
     background: unset;
@@ -133,14 +133,14 @@ a:hover {
 .btn.primary {
     color: #FFF;
     background: #FA0;
-    border: none;
+    border: unset;
 }
 
 
 input,
 textarea,
 select {
-    padding: 12px;
+    padding: 1em;
     border: solid #eee;
     margin: 0 0 1em;
 }
@@ -177,7 +177,7 @@ code {
 
 th,
 td {
-    padding: 12px;
+    padding: 1em;
     text-align: left;
     border-bottom: solid #eee;
 }
