@@ -147,8 +147,7 @@ a:hover {
     margin: 0 0 1em;
 }
 
-.btn:hover,
-.btn:focus {
+.btn:hover {
     transform: scale(1.03);
 }
 
@@ -180,7 +179,6 @@ select:focus {
 }
 
 label {
-    display: block;
     margin:0 0 .5em;
     font-weight: 600;
 }
@@ -192,7 +190,6 @@ ol,
 ul {
     padding: 0;
     list-style: inside;
-    margin: 0;
 }
 
 ul ul,
