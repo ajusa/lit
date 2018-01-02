@@ -154,7 +154,7 @@ a:hover {
 
 .btn.btn-primary {
     color: #FFF;
-    background-color: #FA0;
+    background: #FA0;
     border: none;
 }
 
@@ -192,7 +192,6 @@ ol,
 ul {
     padding: 0;
     list-style: inside;
-    /*possibly delete the specific bit*/
     margin: 0;
 }
 
