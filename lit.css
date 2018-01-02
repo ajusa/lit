@@ -1,6 +1,7 @@
 /*
 * Lit v0.1
-* Primary Color set to: #FA0;
+* Primary Color set to: #FA0
+* Font set to: Nunito
 */
 
 * {
@@ -130,11 +131,11 @@ a:hover {
     margin: 0 0 1em;
 }
 
-a, .btn:hover {
+.btn:hover {
     transform: scale(1.03);
 }
 
-.btn.btn-primary {
+.btn.primary {
     color: #FFF;
     background: #FA0;
     border: none;
