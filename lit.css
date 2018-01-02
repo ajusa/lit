@@ -141,8 +141,8 @@ input,
 textarea,
 select {
     padding: 12px;
-    border: solid #E9E9E9;
-    margin: 0 0 1.5em;
+    border: solid #eee;
+    margin: 0 0 1em;
 }
 
 input:focus,
@@ -172,7 +172,7 @@ ol ul {
 
 
 code {
-    background: #E9E9E9;
+    background: #eee;
     float: block;
     overflow: auto;
 }
@@ -183,7 +183,7 @@ th,
 td {
     padding: 12px;
     text-align: left;
-    border-bottom: solid #E9E9E9;
+    border-bottom: solid #eee;
 }
 
 
@@ -194,7 +194,7 @@ td {
 
 hr {
     margin: 3em;
-    border: solid #E9E9E9;
+    border: solid #eee;
 }
 
 .row {
