@@ -152,10 +152,6 @@ select:focus {
     outline: 0;
 }
 
-label {
-    font-weight: 600;
-}
-
 
 ol,
 ul {
