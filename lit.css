@@ -167,9 +167,8 @@ ol ul {
 }
 
 
-code {
-    background: #eee;
-    float: block;
+.code {
+    border: solid #eee;
     overflow: auto;
 }
 
