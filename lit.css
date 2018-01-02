@@ -69,7 +69,6 @@
 
 body {
     font: 1em/1.6 Nunito;
-    color: #222;
 }
 
 
@@ -108,14 +107,14 @@ a {
     color: #FA0;
     text-decoration: unset;
 }
-
+.btn:hover,
 a:hover {
     opacity: .5;
 }
 
 
 .btn {
-    padding: 1em 20px; /*making this just padding: 1em; could save 5 bytes*/
+    padding: 1em 20px; /*making this just padding: 1em; could save 3 bytes*/
     letter-spacing: .1em;
     text-transform: uppercase;
     background: unset;
@@ -123,7 +122,6 @@ a:hover {
     cursor: pointer;
     font-size: 12px;
     transition: .2s;
-    margin: 0 0 1em;
 }
 
 .btn:hover {
