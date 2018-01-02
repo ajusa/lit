@@ -147,7 +147,7 @@ a:hover {
     margin: 0 0 1em;
 }
 
-.btn:hover {
+a, .btn:hover {
     transform: scale(1.03);
 }
 
@@ -166,7 +166,7 @@ a:hover {
 input,
 textarea,
 select {
-    padding: 10px;
+    padding: 12px;
     border: 1px solid #E9E9E9;
     margin: 0 0 1.5em;
 }
@@ -220,7 +220,7 @@ xmp {
 
 th,
 td {
-    padding: 12px 15px;
+    padding: 12px;
     text-align: left;
     border-bottom: 1px solid #E9E9E9;
 }
@@ -240,9 +240,8 @@ td {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 hr {
-    margin: 3em 0 3.5em;
-    border-width: 0;
-    border-top: 1px solid #E9E9E9;
+    margin: 3em;
+    border: 1px solid #E9E9E9;
 }
 
 
