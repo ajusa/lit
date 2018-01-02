@@ -135,7 +135,7 @@ a:hover {
 
 .btn {
     padding: 12px 20px;
-    color: #555;
+    color: #222;
     text-align: center;
     letter-spacing: .1em;
     text-transform: uppercase;
@@ -167,7 +167,7 @@ input,
 textarea,
 select {
     padding: 10px;
-    border: 1px solid #DDD;
+    border: 1px solid #E9E9E9;
     margin: 0 0 1.5em;
 }
 
@@ -208,7 +208,7 @@ ol ul {
 code,
 xmp {
     padding: 1em;
-    background: #F1F1F1;
+    background: #E9E9E9;
     overflow-x: auto;
 }
 
@@ -222,7 +222,7 @@ th,
 td {
     padding: 12px 15px;
     text-align: left;
-    border-bottom: 1px solid #E1E1E1;
+    border-bottom: 1px solid #E9E9E9;
 }
 
 
@@ -242,7 +242,7 @@ td {
 hr {
     margin: 3em 0 3.5em;
     border-width: 0;
-    border-top: 1px solid #E1E1E1;
+    border-top: 1px solid #E9E9E9;
 }
 
 
