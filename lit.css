@@ -253,9 +253,7 @@ hr {
 
 /* Self Clearing Goodness */
 
-.c:after,
-.row:after,
-.cf {
+.row:after {
     content: "";
     display: table;
     clear: both;
