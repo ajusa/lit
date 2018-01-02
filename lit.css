@@ -27,7 +27,7 @@
 
 @media (min-width: 550px) {
     .col {
-        margin-left: 4%;
+        margin-left: 1em;
     }
     .col:first-child {
         margin-left: 0;
@@ -115,7 +115,7 @@ a:hover {
 
 
 .btn {
-    padding: 1em 20px;
+    padding: 1em 20px; /*making this just padding: 1em; could save 5 bytes*/
     letter-spacing: .1em;
     text-transform: uppercase;
     background: unset;
