@@ -167,7 +167,7 @@ ol ul {
 }
 
 
-.code {
+pre {
     border: solid #eee;
     overflow: auto;
 }
