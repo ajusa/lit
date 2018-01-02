@@ -11,7 +11,7 @@
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-.container {
+.c {
     width: 100%;
     max-width: 960px;
     margin: auto;
@@ -69,7 +69,7 @@
 }
 
 body {
-    font: 1em/1.6 "Nunito", sans-serif;
+    font: 1em/1.6 Nunito;
     color: #222;
 }
 
@@ -84,7 +84,7 @@ h3,
 h4,
 h5,
 h6 {
-    font: 300 1em "Nunito";
+    font: 300 1em Nunito;
     margin: .4em 0;
 }
 
@@ -139,11 +139,11 @@ a:hover {
     text-align: center;
     letter-spacing: .1em;
     text-transform: uppercase;
-    background: inherit;
+    background: unset;
     border: 1px solid;
     cursor: pointer;
     font-size: 12px;
-    transition: all .2s ease-in-out;
+    transition: .2s;
     margin: 0 0 1em;
 }
 
@@ -258,7 +258,7 @@ hr {
 
 /* Self Clearing Goodness */
 
-.container:after,
+.c:after,
 .row:after,
 .cf {
     content: "";
