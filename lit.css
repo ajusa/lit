@@ -144,6 +144,7 @@ a:hover {
     cursor: pointer;
     font-size: 12px;
     transition: all .2s ease-in-out;
+    margin: 0 0 1em;
 }
 
 .btn:hover,
@@ -168,6 +169,7 @@ textarea,
 select {
     padding: 10px;
     border: 1px solid #DDD;
+    margin: 0 0 1.5em;
 }
 
 input:focus,
@@ -179,25 +181,17 @@ select:focus {
 
 label {
     display: block;
-    margin-bottom: .5em;
+    margin:0 0 .5em;
     font-weight: 600;
 }
 
 
 /* Lists
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-ul {
-    list-style: inside;
-}
-
-ol {
-    list-style: inside;
-}
-
 ol,
 ul {
     padding: 0;
+    list-style: inside;
     /*possibly delete the specific bit*/
     margin: 0;
 }
@@ -207,10 +201,6 @@ ul ol,
 ol ol,
 ol ul {
     margin: 1em 0 1em 3em;
-}
-
-li {
-    margin-bottom: .5em;
 }
 
 
@@ -238,25 +228,6 @@ td {
     text-align: left;
     border-bottom: 1px solid #E1E1E1;
 }
-
-
-
-
-/* Spacing
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-.btn {
-    margin-bottom: 1em;
-}
-
-input,
-textarea,
-select {
-    margin-bottom: 1.5em;
-}
-
-
-
 
 
 /* Utilities
