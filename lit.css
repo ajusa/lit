@@ -116,8 +116,6 @@ a:hover {
 
 .btn {
     padding: 12px 20px;
-    color: #222;
-    text-align: center;
     letter-spacing: .1em;
     text-transform: uppercase;
     background: unset;
