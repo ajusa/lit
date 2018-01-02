@@ -199,8 +199,6 @@ hr {
     border: solid #E9E9E9;
 }
 
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
+.row {
+    overflow: auto;
 }
