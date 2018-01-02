@@ -139,8 +139,6 @@ input,
 textarea,
 select {
     padding: 1em;
-    border: solid #eee;
-    margin: 0 0 1em;
 }
 
 input:focus,
