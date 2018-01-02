@@ -152,20 +152,6 @@ select:focus {
 }
 
 
-ol,
-ul {
-    padding: 0;
-    list-style: inside;
-}
-
-ul ul,
-ul ol,
-ol ol,
-ol ul {
-    margin-left: 3em;
-}
-
-
 pre {
     border: solid #eee;
     overflow: auto;
