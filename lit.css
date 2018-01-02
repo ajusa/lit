@@ -175,8 +175,8 @@ ol ul {
 
 code {
     background: #E9E9E9;
-    display: block;
-    overflow-x: auto;
+    float: block;
+    overflow: auto;
 }
 
 
