@@ -114,17 +114,6 @@ h6 {
     margin: .4em 0;
 }
 
-
-
-a {
-    color: var(--primary-color);
-    text-decoration: unset;
-}
-
-a:hover {
-    opacity: .5;
-}
-
 .btn {
     padding: 1em 1.3em;
     /*making this just padding: 1em; could save 3 bytes*/
@@ -147,6 +136,17 @@ a:hover {
     background: var(--primary-color);
     border: unset;
 }
+
+a {
+    color: var(--primary-color);
+    text-decoration: unset;
+}
+
+a:hover {
+    opacity: .5;
+}
+
+
 
 
 .input,
