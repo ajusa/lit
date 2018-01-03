@@ -131,7 +131,7 @@ a:hover {
     cursor: pointer;
     font-size: 12px;
     transition: .2s;
-    margin: 0 0 1em;
+    margin: 001em;
 }
 
 .btn:hover {
@@ -145,17 +145,13 @@ a:hover {
 }
 
 
-input,
-textarea,
-select {
+.input {
     padding: 1em;
     border: solid var(--light);
-    margin: 0 0 1em;
+    margin: 001em;
 }
 
-input:focus,
-textarea:focus,
-select:focus {
+.input:focus {
     border: solid var(--light);
     outline: 0;
 }
