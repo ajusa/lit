@@ -2,6 +2,7 @@
 * Lit v0.1
 * Primary Color set to: #FA0
 * Font set to: Nunito
+* Use ctrl-f to change these
 */
 
 * {
@@ -22,8 +23,7 @@
 }
 
 
-/* For devices larger than 550px. The unicodes are the numbers 1-11
-*/
+/* The unicodes are the numbers 1-11 */
 
 @media (min-width: 550px) {
     .col {
@@ -70,7 +70,6 @@
 body {
     font: 1em/1.6 Nunito;
 }
-
 
 h1,
 h2,
@@ -157,7 +156,6 @@ pre {
 }
 
 
-
 th,
 td {
     padding: 1em;
@@ -168,8 +166,7 @@ td {
 
 
 
-/* Misc
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*Misc*/
 
 hr {
     margin: 3em;

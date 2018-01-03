@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="lit.css">
     <style>
     .example-grid .col {
+        /*stolen from skeleton for the time being*/
         background: #EEE;
         text-align: center;
         border-radius: 4px;
@@ -27,11 +28,23 @@
 <body class="c">
     <h1>lit</h1>
     <p>a <a href="http://refresh-sf.com/">549 byte</a> (gzipped and minified) css starter</p>
-    <p>At this point, I don't think you can even call it a framework. It is too small!</p>
+    <p>This is the result of me playing css "code golf" with <a href="http://www.getskeleton.com">Skeleton</a>. As such, this framework strives to maintain all of the features that Skeleton and other similar frameworks (Milligram, Min... etc) offer.</p>
     <div>
         <a class="btn" href="http://www.github.com/ajusa/lit">Github</a>
     </div>
     <br>
+    <h2>Documentation</h2>
+    <p>Just use view source for now. Once the docs are stabilized, I'll add code blocks for everything.</p>
+    <h4>Container</h4>
+    <div class="c">
+        Container Example
+    </div>
+    <pre><code>
+    &lt;div class="c"&gt;
+        Container Example
+    &lt;/div&gt;
+    </code></pre>
+    <h4>Grid</h4>
     <div class="example-grid">
         <div class="row">
             <div class="1 col">One</div>
@@ -78,23 +91,25 @@
             <div class="1 col">One</div>
         </div>
     </div>
+    <h4>Typopgraphy</h4>
     <h1>Heading</h1>
     <h2>Heading</h2>
     <h3>Heading</h3>
     <h4>Heading</h4>
     <h5>Heading</h5>
     <h6>Heading</h6>
-    <p>Some paragraph text</p>
+    <p>Lorem ipsum dolor sit amet <a href="#">links look like this</a>, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     <h4>Menu</h4>
     <div class="row">
-        <div class="1 col"><b>Title</b></div>
-        <div class="1 col"><a href="#">Link</a> </div>
-        <div class="1 col"><a href="#">Link</a> </div>
-        <div class="1 col"><a href="#">Link</a> </div>
-        <div class="1 col"><a href="#">Link</a> </div>
+        <div class="1 col"><b>ajl</b></div>
+        <div class="1 col"><a href="#">News</a> </div>
+        <div class="1 col"><a href="#">About</a> </div>
+        <div class="1 col"><a href="#">Docs</a> </div>
+        <div class="1 col"><a href="#">Login</a> </div>
     </div>
+    <p>I do not reccomend making a menu like this, I would use some custom css to make sure that spacing was consistent. However, this works for a decent responsive demo.</p>
+    <h4>Code Block</h4>
     <pre>
-
     &lt;div class=&quot;row&quot;&gt;
         &lt;div class=&quot;1 col&quot;&gt;&lt;a href=&quot;#&quot;&gt;Link&lt;/a&gt;&lt;/div&gt;
         &lt;div class=&quot;1 col&quot;&gt;&lt;a href=&quot;#&quot;&gt;Link&lt;/a&gt;&lt;/div&gt;
@@ -102,17 +117,16 @@
         &lt;div class=&quot;1 col&quot;&gt;&lt;a href=&quot;#&quot;&gt;Link&lt;/a&gt;&lt;/div&gt;
     &lt;/div&gt;
     </pre>
+    <h4>Horizontal Rules</h4>
     <hr>
+    <h4>Buttons</h4>
     <div>
-        <button class="btn">Test Button</button>
-        <button class="btn">Another Button</button>
-        <input type="button" class="btn" value="hey">
+        <button class="btn">Button</button>
+        <input type="button" class="btn" value="Input">
         <a class="btn" href="">Link</a>
     </div>
     <br>
-    <a href="#">Test</a>
-	<br>
-	<b>List Example</b>
+    <h4>Lists</h4>
     <ul>
         <li>Item 1</li>
         <li>
@@ -124,53 +138,77 @@
         </li>
         <li>Item 3</li>
     </ul>
+    <h4>Forms</h4>
     <form>
         <div class="row">
             <div class="6 col">
-                <label for="exampleEmailInput">Your email</label>
-                <input class="w-100" type="email" placeholder="test@mailbox.com" id="exampleEmailInput">
+                <label>Email</label>
+                <input class="w-100" type="email" placeholder="opensource@mail.com">
             </div>
             <div class="6 col">
-                <label for="exampleRecipientInput">Reason for contacting</label>
-                <select class="w-100" id="exampleRecipientInput">
-                    <option value="Option 1">Questions</option>
-                    <option value="Option 2">Admiration</option>
-                    <option value="Option 3">Can I get your number?</option>
+                <label>Additional Info</label>
+                <select class="w-100">
+                    <option value="Option 1">Question</option>
+                    <option value="Option 2">Compliment</option>
+                    <option value="Option 3">Problem</option>
                 </select>
             </div>
         </div>
-        <label for="exampleMessage">Message</label>
-        <textarea class="w-100" placeholder="Hi Dave &hellip;" id="exampleMessage"></textarea>
+        <label>Message</label>
+        <textarea class="w-100" placeholder="Some information here"></textarea>
         <input type="checkbox">
-        <span>Send a copy to yourself</span>
+        <span>I am not a robot</span>
         <br>
         <input class="btn primary" type="button" value="Submit">
     </form>
+    <h4>Table</h4>
     <table class="w-100">
         <thead>
             <tr>
                 <th>Name</th>
-                <th>Age</th>
-                <th>Sex</th>
-                <th>Location</th>
+                <th>Feature Parity (compared to lit)</th>
+                <th>Size (bytes)</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td>Dave Gamache</td>
-                <td>26</td>
-                <td>Male</td>
-                <td>San Francisco</td>
+                <td>lit</td>
+                <td>duh</td>
+                <td>549</td>
             </tr>
             <tr>
-                <td>Dwayne Johnson</td>
-                <td>42</td>
-                <td>Male</td>
-                <td>Hayward</td>
+                <td>Skeleton</td>
+                <td>Yes</td>
+                <td>1650</td>
+            </tr>
+            <tr>
+                <td>Milligram</td>
+                <td>Mostly, missing blockquote and clear buttons</td>
+                <td>2240</td>
+            </tr>
+            <tr>
+                <td>Min</td>
+                <td>Mostly, missing navbar and messages</td>
+                <td>955</td>
+            </tr>
+            <tr>
+                <td>Pure</td>
+                <td>Decent, but Pure has more options per element</td>
+                <td>3910</td>
+            </tr>
+            <tr>
+                <td>Furtive</td>
+                <td>Decent, but Furtive has many utility classes and media objects</td>
+                <td>2470</td>
+            </tr>
+            <tr>
+                <td>Basscss</td>
+                <td>Decent, but Basscss is atomic based, difficult to compare</td>
+                <td>2220</td>
             </tr>
         </tbody>
     </table>
-    <pre>.some-class { background-color: red; }</pre>
+    <br>
 </body>
 
 </html>
