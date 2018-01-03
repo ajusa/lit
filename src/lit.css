@@ -131,7 +131,7 @@ a:hover {
     cursor: pointer;
     font-size: 12px;
     transition: .2s;
-    margin: 001em;
+    margin: 0 0 1em;
 }
 
 .btn:hover {
@@ -148,7 +148,7 @@ a:hover {
 .input {
     padding: 1em;
     border: solid var(--light);
-    margin: 001em;
+    margin: 0 0 1em;
 }
 
 .input:focus {
