@@ -88,7 +88,7 @@ h3,
 h4,
 h5,
 h6 {
-    font: 300 1em var(--font);
+    font: 1 1em var(--font);
     margin: .4em 0;
 }
 
