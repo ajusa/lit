@@ -39,7 +39,7 @@ pre {
 
 /* The unicodes are the numbers 1-11 */
 
-@media (min-width: 35em) {
+@media(min-width: 35em) {
     .col {
         margin: 0 1%;
     }
