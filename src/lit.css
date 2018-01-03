@@ -17,7 +17,7 @@
 
 
 .c {
-    max-width: 960px;
+    max-width: 60em;
     margin: auto;
     padding: 0 1em;
 }
@@ -36,12 +36,12 @@
 
 /* The unicodes are the numbers 1-11 */
 
-@media (min-width: 550px) {
+@media (min-width: 35em) {
     .col {
-        margin-left: 1em;
+        margin: 0 1%;
     }
-    .col:first-child {
-        margin-left: 0;
+    .row{
+        margin: 0 -1%;
     }
     .\31.col {
         width: 5%;
@@ -122,14 +122,14 @@ a:hover {
 }
 
 .btn {
-    padding: 1em 20px;
+    padding: 1em 1.3em;
     /*making this just padding: 1em; could save 3 bytes*/
     letter-spacing: .1em;
     text-transform: uppercase;
     background: unset;
     border: solid;
     cursor: pointer;
-    font-size: 12px;
+    font-size: .8em;
     transition: .2s;
     margin: 0 0 1em;
 }
