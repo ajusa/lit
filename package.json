@@ -1,0 +1,33 @@
+{
+  "name": "lit",
+  "version": "1.0.0",
+  "description": "a sub 600 byte css framework",
+  "main": "lit.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ajusa/lit.git"
+  },
+  "keywords": [
+    "css"
+  ],
+  "author": "Arham Jain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ajusa/lit/issues"
+  },
+  "homepage": "https://github.com/Ajusa/lit#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-clean-css": "^3.9.2",
+    "gulp-gzip": "^1.4.1",
+    "gulp-postcss": "^7.0.1",
+    "gulp-sourcemaps": "^2.6.3",
+    "postcss-css-variables": "^0.8.0"
+  },
+  "dependencies": {
+    "yarn": "^1.3.2"
+  }
+}
