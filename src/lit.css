@@ -161,9 +161,10 @@ select:focus {
 }
 
 
-pre {
+pre, hr {
     border: solid var(--light);
     overflow: auto;
+    margin: 2em 0;
 }
 
 
@@ -180,10 +181,6 @@ td {
 
 /*Misc*/
 
-hr {
-    margin: 3em;
-    border: solid var(--light);
-}
 
 .row {
     overflow: auto;
