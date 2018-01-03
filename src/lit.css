@@ -30,8 +30,8 @@
 .w-100 {
     width: 100%;
 }
-.row,
-pre {
+pre,
+.row {
     overflow: auto;
 }
 
@@ -84,36 +84,37 @@ pre {
 body {
     font: 1em/1.6 var(--font);
 }
+h1 {
+    font: 1 2.5em var(--font);
+    margin: .4em 0;
+}
 
-h1,
-h2,
-h3,
-h4,
-h5,
+h2 {
+    font: 1 2.2em var(--font);
+    margin: .4em 0;
+}
+
+h3 {
+    font: 1 1.9em var(--font);
+    margin: .4em 0;
+}
+
+h4 {
+    font: 1 1.6em var(--font);
+    margin: .4em 0;
+}
+
+h5 {
+    font: 1 1.3em var(--font);
+    margin: .4em 0;
+}
+
 h6 {
     font: 1 1em var(--font);
     margin: .4em 0;
 }
 
-h1 {
-    font-size: 2.5em
-}
 
-h2 {
-    font-size: 2.2em
-}
-
-h3 {
-    font-size: 1.9em
-}
-
-h4 {
-    font-size: 1.6em
-}
-
-h5 {
-    font-size: 1.3em
-}
 
 a {
     color: var(--primary-color);
