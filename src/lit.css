@@ -34,13 +34,14 @@
 
 
 
+
 /* The unicodes are the numbers 1-11 */
 
 @media (min-width: 35em) {
     .col {
         margin: 0 1%;
     }
-    .row{
+    .row {
         margin: 0 -1%;
     }
     .\31.col {
@@ -145,23 +146,18 @@ a:hover {
 }
 
 
-.input {
+.input,
+pre {
     padding: 1em;
     border: solid var(--light);
     margin: 0 0 1em;
 }
 
-.input:focus {
+.input:focus, hr {
     border: solid var(--light);
     outline: 0;
 }
 
-
-pre, hr {
-    border: solid var(--light);
-    overflow: auto;
-    margin: 2em 0;
-}
 
 
 th,
@@ -174,7 +170,7 @@ td {
 
 /*Misc*/
 
-
-.row {
+.row,
+pre {
     overflow: auto;
 }
