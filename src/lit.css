@@ -19,18 +19,21 @@
     max-width: 60em;
     margin: auto;
     padding: 1em;
+    width: 100%;
 }
 
 .col {
     float: left;
-}
-
-.c,
-.w-100,
-.col {
     width: 100%;
 }
 
+.w-100 {
+    width: 100%;
+}
+.row,
+pre {
+    overflow: auto;
+}
 
 
 
@@ -169,7 +172,3 @@ td {
 
 /*Misc*/
 
-.row,
-pre {
-    overflow: auto;
-}
