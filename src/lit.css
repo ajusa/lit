@@ -4,16 +4,13 @@
 * Font set to: Nunito
 * Use ctrl-f to change these
 */
+
 :root {
-    --primary-font: Nunito;
-    --primary-color: #212121;
-    --secondary-color: #dbdbdb;
-    --accent-color: #234567;
-    --link-color: gold;
-    --border-color: green;
-    --primary-button-bg: gold;
-    --primary-button-txt: var(--secondary-color);
+    --font: Nunito;
+    --primary-color: #FA0;
+    --light: #eee;
 }
+
 * {
     box-sizing: border-box;
 }
@@ -24,12 +21,17 @@
     margin: auto;
     padding: 0 1em;
 }
+
 .col {
     float: left;
 }
-.c,.col,.w-100{
-  width: 100%;
+
+.c,
+.col,
+.w-100 {
+    width: 100%;
 }
+
 
 
 /* The unicodes are the numbers 1-11 */
@@ -77,7 +79,7 @@
 }
 
 body {
-    font: 1em/1.6 var(--primary-font);
+    font: 1em/1.6 var(--font);
 }
 
 h1,
@@ -86,7 +88,7 @@ h3,
 h4,
 h5,
 h6 {
-    font: 300 1em var(--primary-font);
+    font: 300 1em var(--font);
     margin: .4em 0;
 }
 
@@ -111,7 +113,7 @@ h5 {
 }
 
 a {
-    color: var(--link-color);
+    color: var(--primary-color);
     text-decoration: unset;
 }
 
@@ -120,7 +122,8 @@ a:hover {
 }
 
 .btn {
-    padding: 1em 20px; /*making this just padding: 1em; could save 3 bytes*/
+    padding: 1em 20px;
+    /*making this just padding: 1em; could save 3 bytes*/
     letter-spacing: .1em;
     text-transform: uppercase;
     background: unset;
@@ -136,8 +139,8 @@ a:hover {
 }
 
 .btn.primary {
-    color: var(--primary-button-txt);
-    background: var(--primary-button-bg);
+    color: #FFF;
+    background: var(--primary-color);
     border: unset;
 }
 
@@ -146,20 +149,20 @@ input,
 textarea,
 select {
     padding: 1em;
-    border: solid var(--border-color);
+    border: solid var(--light);
     margin: 0 0 1em;
 }
 
 input:focus,
 textarea:focus,
 select:focus {
-    border: solid var(--border-color);
+    border: solid var(--light);
     outline: 0;
 }
 
 
 pre {
-    border: solid var(--border-color);
+    border: solid var(--light);
     overflow: auto;
 }
 
@@ -168,8 +171,9 @@ th,
 td {
     padding: 1em;
     text-align: left;
-    border-bottom: solid var(--border-color);
+    border-bottom: solid var(--light);
 }
+
 
 
 
@@ -178,7 +182,7 @@ td {
 
 hr {
     margin: 3em;
-    border: solid var(--border-color);
+    border: solid var(--light);
 }
 
 .row {
