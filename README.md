@@ -1,4 +1,4 @@
-# lit
+# lit 🔥
 
 a ridiculously minimalistic css framework.
 
