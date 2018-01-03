@@ -27,8 +27,8 @@
 }
 
 .c,
-.col,
-.w-100 {
+.w-100,
+.col {
     width: 100%;
 }
 
@@ -136,7 +136,7 @@ a:hover {
 }
 
 .btn:hover {
-    transform: scale(1.03);
+    transform: scale(1.1);
 }
 
 .btn.primary {
@@ -154,7 +154,7 @@ pre {
 }
 
 .input:focus, hr {
-    border: solid var(--light);
+    border: solid var(--primary-color);
     outline: 0;
 }
 
