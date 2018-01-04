@@ -1,6 +1,6 @@
 # lit 🔥
 
-a ridiculously minimalistic css framework.
+a ridiculously small css framework.
 
 I challenged myself to see how small I could go, but preserve everything Skeleton, Milligram, and other micro frameworks have to offer. 
 
