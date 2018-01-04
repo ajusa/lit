@@ -9,167 +9,154 @@
     --primary-color: #FA0;
     --light: #eee;
 }
-
 * {
-    box-sizing: border-box;
+    box-sizing: border-box
 }
 
+td,
+th {
+    padding: 1em;
+    text-align: left;
+    border-bottom: solid var(--light)
+}
 
 .c {
     max-width: 60em;
     margin: auto;
     padding: 1em;
-    width: 100%;
+    width: 100%
+}
+
+.row,
+pre {
+    overflow: auto
+}
+
+.w-100 {
+    width: 100%
 }
 
 .col {
     float: left;
-    width: 100%;
+    width: 100%
 }
 
-.w-100 {
-    width: 100%;
-}
-pre,
-.row {
-    overflow: auto;
-}
-
-
-
-/* The unicodes are the numbers 1-11 */
-
-@media(min-width: 35em) {
-    .col {
-        margin: 0 1%;
-    }
-    .row {
-        margin: 0 -1%;
-    }
-    .\31.col {
-        width: 5%;
-    }
-    .\32.col {
-        width: 13%;
-    }
-    .\33.col {
-        width: 22%;
-    }
-    .\34.col {
-        width: 31%;
-    }
-    .\35.col {
-        width: 39%;
-    }
-    .\36.col {
-        width: 48%;
-    }
-    .\37.col {
-        width: 57%;
-    }
-    .\38.col {
-        width: 65%;
-    }
-    .\39.col {
-        width: 74%;
-    }
-    .\31 0.col {
-        width: 83%;
-    }
-    .\31 1.col {
-        width: 91%;
-    }
+.input,
+pre {
+    padding: 1em;
+    border: solid var(--light);
+    margin: 0 0 1em
 }
 
 body {
-    font: 1em/1.6 var(--font);
+    font: 1em/1.6 var(--font)
 }
+
 h1 {
     font: 1 2.5em var(--font);
-    margin: .4em 0;
+    margin: .4em 0
 }
 
 h2 {
     font: 1 2.2em var(--font);
-    margin: .4em 0;
+    margin: .4em 0
 }
 
 h3 {
     font: 1 1.9em var(--font);
-    margin: .4em 0;
+    margin: .4em 0
 }
 
 h4 {
     font: 1 1.6em var(--font);
-    margin: .4em 0;
+    margin: .4em 0
 }
 
 h5 {
     font: 1 1.3em var(--font);
-    margin: .4em 0;
+    margin: .4em 0
 }
 
 h6 {
     font: 1 1em var(--font);
-    margin: .4em 0;
+    margin: .4em 0
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: unset
+}
+
+.btn.primary {
+    color: #fff;
+    background: var(--primary-color);
+    border: unset
+}
+
+.btn:hover {
+    transform: scale(1.1)
 }
 
 .btn {
     padding: 1em 1.3em;
-    /*making this just padding: 1em; could save 3 bytes*/
+    transition: .2s;
     letter-spacing: .1em;
     text-transform: uppercase;
     background: unset;
     border: solid;
     cursor: pointer;
     font-size: .8em;
-    transition: .2s;
-    margin: 0 0 1em;
-}
-
-.btn:hover {
-    transform: scale(1.1);
-}
-
-.btn.primary {
-    color: #FFF;
-    background: var(--primary-color);
-    border: unset;
-}
-
-a {
-    color: var(--primary-color);
-    text-decoration: unset;
+    margin: 0 0 1em
 }
 
 a:hover {
-    opacity: .5;
+    opacity: .5
 }
 
-
-
-
-.input,
-pre {
-    padding: 1em;
-    border: solid var(--light);
-    margin: 0 0 1em;
-}
-
-.input:focus, hr {
+.input:focus,
+hr {
     border: solid var(--primary-color);
-    outline: 0;
+    outline: 0
 }
 
-
-
-th,
-td {
-    padding: 1em;
-    text-align: left;
-    border-bottom: solid var(--light);
+@media(min-width:35em) {
+    .col {
+        margin: 0 1%
+    }
+    .row {
+        margin: 0 -1%
+    }
+    .\31.col {
+        width: 5%
+    }
+    .\32.col {
+        width: 13%
+    }
+    .\33.col {
+        width: 22%
+    }
+    .\34.col {
+        width: 31%
+    }
+    .\35.col {
+        width: 39%
+    }
+    .\36.col {
+        width: 48%
+    }
+    .\37.col {
+        width: 57%
+    }
+    .\38.col {
+        width: 65%
+    }
+    .\39.col {
+        width: 74%
+    }
+    .\31 0.col {
+        width: 83%
+    }
+    .\31 1.col {
+        width: 91%
+    }
 }
-
-
-/*Misc*/
-
