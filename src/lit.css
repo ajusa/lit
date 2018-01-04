@@ -120,7 +120,7 @@ hr {
 
 @media(min-width:35em) {
     .col {
-        margin: 0 1%;
+        margin: 1%;
     }
     .row{
         margin: 0 -1%;
