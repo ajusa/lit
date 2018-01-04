@@ -53,32 +53,32 @@ body {
 }
 
 h1 {
-    font: 1 2.5em var(--font);
+    font: 300 2.5em var(--font);
     margin: .4em 0
 }
 
 h2 {
-    font: 1 2.2em var(--font);
+    font: 300 2.2em var(--font);
     margin: .4em 0
 }
 
 h3 {
-    font: 1 1.9em var(--font);
+    font: 300 1.9em var(--font);
     margin: .4em 0
 }
 
 h4 {
-    font: 1 1.6em var(--font);
+    font: 300 1.6em var(--font);
     margin: .4em 0
 }
 
 h5 {
-    font: 1 1.3em var(--font);
+    font: 300 1.3em var(--font);
     margin: .4em 0
 }
 
 h6 {
-    font: 1 1em var(--font);
+    font: 300 1em var(--font);
     margin: .4em 0
 }
 
