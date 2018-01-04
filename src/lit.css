@@ -45,7 +45,7 @@ pre {
 pre {
     padding: 1em;
     border: solid var(--light);
-    margin: 0 0 1em
+    margin: 0 0 1em 0
 }
 
 body {
@@ -105,7 +105,7 @@ a {
     background: unset;
     border: solid;
     font-size: .8em;
-    margin: 0 0 1em
+    margin: 0 1em 1em 0;
 }
 
 a:hover {
@@ -120,7 +120,10 @@ hr {
 
 @media(min-width:35em) {
     .col {
-        margin: 1%
+        margin: 0 1%;
+    }
+    .row{
+        margin: 0 -1%;
     }
     .\31.col {
         width: 5%
