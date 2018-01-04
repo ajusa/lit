@@ -10,7 +10,7 @@
     --light: #eee;
 }
 * {
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
 td,
@@ -121,10 +121,7 @@ hr {
 
 @media(min-width:35em) {
     .col {
-        margin: 0 1%
-    }
-    .row {
-        margin: 0 -1%
+        margin: 1%
     }
     .\31.col {
         width: 5%
