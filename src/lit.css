@@ -93,13 +93,8 @@ a {
     border: unset
 }
 
-.btn:hover {
-    transform: scale(1.1)
-}
-
 .btn {
     padding: 1em 1.3em;
-    transition: .2s;
     letter-spacing: .1em;
     text-transform: uppercase;
     background: unset;
@@ -108,7 +103,7 @@ a {
     margin: 0 1em 1em 0;
 }
 
-a:hover {
+a:hover, .btn:hover {
     opacity: .5
 }
 
