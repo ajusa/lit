@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>lit</title>
+    <title>lit 🔥</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,700" rel="stylesheet">
     <!-- Link to your stylesheet here -->
@@ -14,12 +14,8 @@
         /*stolen from skeleton for the time being*/
         background: #EEE;
         text-align: center;
-        border-radius: 4px;
-        font-size: .7em;
-        text-transform: uppercase;
-        height: 30px;
-        line-height: 30px;
-        margin-bottom: .75rem;
+        font-size: .8em;
+        padding: .3em;
         letter-spacing: .1rem;
     }
     </style>
@@ -27,19 +23,18 @@
 
 <body class="c">
     <h1>lit 🔥</h1>
-    <p>a <a href="https://github.com/Ajusa/lit/blob/master/dist/lit.css.zip">472 byte</a> (gzipped and minified) css starter</p>
+    <h5>world's smallest css framework* (<a href="https://github.com/Ajusa/lit/blob/master/dist/lit.css.zip">472 bytes</a> gzipped and minified)</h5>
     <p>This is the result of me playing css "code golf" with <a href="http://www.getskeleton.com">Skeleton</a>. As such, this framework strives to maintain all of the features that Skeleton and other similar frameworks (Milligram, Min... etc) offer.</p>
-    <p>I would love help in making this smaller. The only rules are that newer versions look similar to the current version. Optimizing this for the gzip
-        algorithim has been an interesting, but fun challenge. 
-    </p>
     <p>Any other thoughts? Head to the Github link below and make an issue! If you like this idea, don't forget to star!</p>
     <div>
         <a class="btn" href="http://www.github.com/ajusa/lit">Github</a>
     </div>
     <br>
+    <h6>* Depends on how you define framework. For me, a framework needs to have default styles (buttons, typography, forms), and a grid system.</h6>
+    <br>
     <h2>Documentation</h2>
-    <p>Just use view source for now. Once the docs are stabilized, I'll add code blocks for everything.</p>
     <h4>Container</h4>
+    <p>Containers add margin to the sides of your content and center it. This website has one main container that wraps everything.</p>
     <div class="c">
         Container Example
     </div>
@@ -49,52 +44,39 @@
     &lt;/div&gt;
     </code></pre>
     <h4>Grid</h4>
+    <p>Grids are defined on a 12 column scale. They automatically collapse on mobile to take up the full viewport. Go ahead, try it!</p>
     <div class="example-grid">
         <div class="row">
-            <div class="1 col">One</div>
-            <div class="11 col">Eleven</div>
+            <div class="1 col">1 col</div>
+            <div class="11 col">11 col</div>
         </div>
         <div class="row">
-            <div class="2 col">Two</div>
-            <div class="10 col">Ten</div>
+            <div class="2 col">2 col</div>
+            <div class="10 col">10 col</div>
         </div>
         <div class="row">
-            <div class="3 col">Three</div>
-            <div class="9 col">Nine</div>
+            <div class="3 col">3 col</div>
+            <div class="9 col">9 col</div>
         </div>
         <div class="row">
-            <div class="4 col">Four</div>
-            <div class="8 col">Eight</div>
+            <div class="4 col">4 col</div>
+            <div class="8 col">8 col</div>
         </div>
         <div class="row">
-            <div class="5 col">Five</div>
-            <div class="7 col">Seven</div>
+            <div class="5 col">5 col</div>
+            <div class="7 col">7 col</div>
         </div>
         <div class="row">
-            <div class="6 col">Six</div>
-            <div class="6 col">Six</div>
-        </div>
-        <div class="row">
-            <div class="7 col">Seven</div>
-            <div class="5 col">Five</div>
-        </div>
-        <div class="row">
-            <div class="8 col">Eight</div>
-            <div class="4 col">Four</div>
-        </div>
-        <div class="row">
-            <div class="9 col">Nine</div>
-            <div class="3 col">Three</div>
-        </div>
-        <div class="row">
-            <div class="10 col">Ten</div>
-            <div class="2 col">Two</div>
-        </div>
-        <div class="row">
-            <div class="11 col">Eleven</div>
-            <div class="1 col">One</div>
+            <div class="6 col">6 col</div>
+            <div class="6 col">6 col</div>
         </div>
     </div>
+    <pre><code>
+        &lt;div class=&quot;row&quot;&gt;
+            &lt;div class=&quot;7 col&quot;&gt;Seven&lt;/div&gt;
+            &lt;div class=&quot;5 col&quot;&gt;Five&lt;/div&gt;
+        &lt;/div&gt;
+    </code></pre>
     <h4>Typography</h4>
     <h1>Heading</h1>
     <h2>Heading</h2>
@@ -102,7 +84,20 @@
     <h4>Heading</h4>
     <h5>Heading</h5>
     <h6>Heading</h6>
-    <p>Lorem ipsum dolor sit amet <a href="#">links look like this</a>, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <i>Excepteur sint occaecat</i>  cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p>This is a paragraph. The font family is <a href="https://fonts.google.com/specimen/Nunito">Nunito</a>.
+    <b>Some bold text.</b> <i>Italics also looks nice.</i> You can <u>underline</u> things you feel are important. Lit has styles that override the default heading styles, including margin.</p>
+    <pre><code>
+    &lt;h1&gt;Heading&lt;/h1&gt;
+    &lt;h2&gt;Heading&lt;/h2&gt;
+    &lt;h3&gt;Heading&lt;/h3&gt;
+    &lt;h4&gt;Heading&lt;/h4&gt;
+    &lt;h5&gt;Heading&lt;/h5&gt;
+    &lt;h6&gt;Heading&lt;/h6&gt;
+    &lt;p&gt;This is a paragraph. The font family is &lt;a href=&quot;https://fonts.google.com/specimen/Nunito&quot;&gt;Nunito&lt;/a&gt;.
+    &lt;b&gt;Some bold text.&lt;/b&gt; &lt;i&gt;Italics also looks nice.&lt;/i&gt; 
+    You can &lt;u&gt;underline&lt;/u&gt; things you feel are important. 
+    Lit has styles that override the default heading styles, including margin.&lt;/p&gt;
+    </code></pre>
     <h4>Menu</h4>
     <div class="row">
         <div class="1 col"><b>ajl</b></div>
@@ -111,7 +106,6 @@
         <div class="1 col"><a href="#">Docs</a> </div>
         <div class="1 col"><a href="#">Login</a> </div>
     </div>
-    <p>I do not reccomend making a menu like this, I would use some custom css to make sure that spacing was consistent. However, this works for a decent responsive demo.</p>
     <h4>Code Block</h4>
     <pre><code>
     &lt;div class=&quot;row&quot;&gt;
