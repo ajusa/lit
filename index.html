@@ -85,7 +85,7 @@
     <h5>Heading</h5>
     <h6>Heading</h6>
     <p>This is a paragraph. The font family is <a href="https://fonts.google.com/specimen/Nunito">Nunito</a>.
-    <b>Some bold text.</b> <i>Italics also looks nice.</i> You can <u>underline</u> things you feel are important. Lit has styles that override the default heading styles, including margin.</p>
+        <b>Some bold text.</b> <i>Italics also looks nice.</i> You can <u>underline</u> things you feel are important. Lit has styles that override the default heading styles, including margin.</p>
     <pre><code>
     &lt;h1&gt;Heading&lt;/h1&gt;
     &lt;h2&gt;Heading&lt;/h2&gt;
@@ -99,24 +99,36 @@
     Lit has styles that override the default heading styles, including margin.&lt;/p&gt;
     </code></pre>
     <h4>Menu</h4>
+    <p>While lit doesn't come with a menu component, you can use grids to try and make a menu. Keep in mind that the grid wasn't designed for this, so you may experience weird spacing issues. I reccomend adding some custom css to do spacing.</p>
     <div class="row">
-        <div class="1 col"><b>ajl</b></div>
+        <div class="1 col"><b>Brand</b></div>
         <div class="1 col"><a href="#">News</a> </div>
         <div class="1 col"><a href="#">About</a> </div>
         <div class="1 col"><a href="#">Docs</a> </div>
         <div class="1 col"><a href="#">Login</a> </div>
     </div>
-    <h4>Code Block</h4>
     <pre><code>
     &lt;div class=&quot;row&quot;&gt;
-        &lt;div class=&quot;1 col&quot;&gt;&lt;a href=&quot;#&quot;&gt;Link&lt;/a&gt;&lt;/div&gt;
-        &lt;div class=&quot;1 col&quot;&gt;&lt;a href=&quot;#&quot;&gt;Link&lt;/a&gt;&lt;/div&gt;
-        &lt;div class=&quot;1 col&quot;&gt;&lt;a href=&quot;#&quot;&gt;Link&lt;/a&gt;&lt;/div&gt;
-        &lt;div class=&quot;1 col&quot;&gt;&lt;a href=&quot;#&quot;&gt;Link&lt;/a&gt;&lt;/div&gt;
+        &lt;div class=&quot;1 col&quot;&gt;&lt;b&gt;Brand&lt;/b&gt;&lt;/div&gt;
+        &lt;div class=&quot;1 col&quot;&gt;&lt;a href=&quot;#&quot;&gt;News&lt;/a&gt; &lt;/div&gt;
+        &lt;div class=&quot;1 col&quot;&gt;&lt;a href=&quot;#&quot;&gt;About&lt;/a&gt; &lt;/div&gt;
+        &lt;div class=&quot;1 col&quot;&gt;&lt;a href=&quot;#&quot;&gt;Docs&lt;/a&gt; &lt;/div&gt;
+        &lt;div class=&quot;1 col&quot;&gt;&lt;a href=&quot;#&quot;&gt;Login&lt;/a&gt; &lt;/div&gt;
     &lt;/div&gt;</code>
     </pre>
+    <h4>Code Block</h4>
+    <p>Code blocks are code tags wrapped with pre tags.</p>
+    <pre><code>
+        &lt;pre&gt;&lt;code&gt;
+        &lt;h4&gt;Code Block Example&lt;/h4&gt;
+        &lt;/code&gt;&lt;/pre&gt;
+    </code></pre>
     <h4>Horizontal Rules</h4>
+    <p>Horizontal Rules are useful for diving up content. They add a splash of color as well!</p>
     <hr>
+    <pre><code>
+        &lt;hr&gt;
+    </code></pre>
     <h4>Buttons</h4>
     <div>
         <button class="btn">Button</button>
