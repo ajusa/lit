@@ -44,7 +44,6 @@
     padding: 1em;
     max-width: 60em;
     margin: auto;
-    width: 100%
 }
 
 .card,
@@ -133,7 +132,7 @@ th {
     transition: .2s;
     padding: 1em 1.3em;
     text-transform: uppercase;
-    background: 0 0;
+    background: none;
     border: solid;
     font-size: .8em;
 }
