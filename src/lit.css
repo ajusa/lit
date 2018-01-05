@@ -6,16 +6,16 @@
 
 :root {
     --font: Nunito;
-    --primary-color: #FA0;
+    --primary-color: #fa0;
     --light: #eee;
 }
 
 @media(min-width:35em) {
+    .col {
+        display: table-cell
+    }
     .\31 {
         width: 5%
-    }
-    .\32 {
-        width: 13%
     }
     .\33 {
         width: 22%
@@ -29,22 +29,25 @@
     .\36 {
         width: 48%
     }
+    .\32 {
+        width: 13%
+    }
     .row {
         width: 100%;
         display: table;
         border-spacing: 1em 0
     }
-    .col {
-        display: table-cell
-    }
-    
 }
 
-td,
-th {
+.w-100 {
+    width: 100%
+}
+
+.c {
     padding: 1em;
-    text-align: left;
-    border-bottom: solid var(--light)
+    max-width: 60em;
+    margin: auto;
+    width: 100%
 }
 
 .card,
@@ -54,23 +57,18 @@ pre {
     margin: 0 0 1em
 }
 
-.w-100 {
-    width: 100%
-}
-
-.c {
-    max-width: 60em;
-    margin: auto;
-    padding: 1em;
-    width: 100%
-}
-
-pre {
-    overflow: auto
+.card:focus,
+hr {
+    border: solid var(--primary-color);
+    outline: 0
 }
 
 body {
     font: 1em/1.6 var(--font)
+}
+
+pre {
+    overflow: auto
 }
 
 h6 {
@@ -78,8 +76,8 @@ h6 {
     margin: .4em 0
 }
 
-h2 {
-    font: 300 2.2em var(--font);
+h5 {
+    font: 300 1.3em var(--font);
     margin: .4em 0
 }
 
@@ -93,8 +91,8 @@ h4 {
     margin: .4em 0
 }
 
-h5 {
-    font: 300 1.3em var(--font);
+h2 {
+    font: 300 2.2em var(--font);
     margin: .4em 0
 }
 
@@ -105,17 +103,32 @@ h1 {
 
 a {
     color: var(--primary-color);
-    text-decoration: unset
+    text-decoration: none
 }
 
 .btn.primary {
     color: #fff;
     background: var(--primary-color);
-    border: unset
+    border: none
 }
 
 .btn:hover {
     transform: scale(1.1)
+}
+
+* {
+    box-sizing: border-box
+}
+
+a:hover {
+    opacity: .5
+}
+
+td,
+th {
+    padding: 1em;
+    text-align: left;
+    border-bottom: solid var(--light)
 }
 
 .btn {
@@ -123,22 +136,8 @@ a {
     transition: .2s;
     letter-spacing: .1em;
     text-transform: uppercase;
-    background: unset;
+    background: 0 0;
     border: solid;
     font-size: .8em;
     margin: 0 1em 1em 0
-}
-
-a:hover {
-    opacity: .5
-}
-
-.card:focus,
-hr {
-    border: solid var(--primary-color);
-    outline: 0
-}
-
-* {
-    box-sizing: border-box
 }
