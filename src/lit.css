@@ -132,12 +132,11 @@ th {
 }
 
 .btn {
-    padding: 1em 1.3em;
-    transition: .2s;
     letter-spacing: .1em;
+    transition: .2s;
+    padding: 1em 1.3em;
     text-transform: uppercase;
     background: 0 0;
     border: solid;
     font-size: .8em;
-    margin: 0 1em 1em 0
 }

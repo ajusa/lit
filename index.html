@@ -17,7 +17,8 @@
         letter-spacing: .1rem;
         margin: .8em 0;
     }
-    .example-grid .col{
+
+    .example-grid .col {
         background: #EEE;
         padding: .3em;
     }
@@ -104,21 +105,21 @@
     </code></pre>
     <h4>Menu</h4>
     <p>While lit doesn't come with a menu component, you can use grids to try and make a menu. Keep in mind that the grid wasn't designed for this, so you may experience weird spacing issues. I reccomend adding some custom css to do spacing.</p>
-    <div class="row">
-        <b class="1 col">Brand</b>
-        <a class="1 col" href="#">News</a>
-        <a class="1 col" href="#">About</a>
-        <a class="1 col" href="#">Docs</a>
-        <a class="1 col" href="#">Login</a>
+    <div class="row card">
+        <b class="col">Brand</b>
+        <div class="col"><a href="#">News</a></div>
+        <div class="col"><a href="#">About</a></div>
+        <div class="col"><a href="#">Docs</a></div>
+        <div class="col"><a href="#">Login</a></div>
     </div>
     <br>
     <pre><code>
-    &lt;div class=&quot;row&quot;&gt;
-        &lt;b class=&quot;1 col&quot;&gt;Brand&lt;/b&gt;
-        &lt;a class=&quot;1 col&quot; href=&quot;#&quot;&gt;News&lt;/a&gt;
-        &lt;a class=&quot;1 col&quot; href=&quot;#&quot;&gt;About&lt;/a&gt;
-        &lt;a class=&quot;1 col&quot; href=&quot;#&quot;&gt;Docs&lt;/a&gt;
-        &lt;a class=&quot;1 col&quot; href=&quot;#&quot;&gt;Login&lt;/a&gt;
+    &lt;div class=&quot;row card&quot;&gt;
+        &lt;b class=&quot;col&quot;&gt;Brand&lt;/b&gt;
+        &lt;div class=&quot;col&quot;&gt;&lt;a href=&quot;#&quot;&gt;News&lt;/a&gt;&lt;/div&gt;
+        &lt;div class=&quot;col&quot;&gt;&lt;a href=&quot;#&quot;&gt;About&lt;/a&gt;&lt;/div&gt;
+        &lt;div class=&quot;col&quot;&gt;&lt;a href=&quot;#&quot;&gt;Docs&lt;/a&gt;&lt;/div&gt;
+        &lt;div class=&quot;col&quot;&gt;&lt;a href=&quot;#&quot;&gt;Login&lt;/a&gt;&lt;/div&gt;
     &lt;/div&gt;</code>
     </pre>
     <h4>Code Block</h4>
@@ -171,13 +172,12 @@
         </div>
         <div class="row">
             <label>Message</label>
-        <textarea class="card w-100" placeholder="Some information here"></textarea>
-        <input type="checkbox">
-        <span>I am not a robot</span>
-        <hr>
-        <input class="btn primary" type="button" value="Submit">
+            <textarea class="card w-100" placeholder="Some information here"></textarea>
+            <input type="checkbox">
+            <span>I am not a robot</span>
+            <hr>
+            <input class="btn primary" type="button" value="Submit">
         </div>
-        
     </form>
     <h4>Tables</h4>
     <table class="w-100">
