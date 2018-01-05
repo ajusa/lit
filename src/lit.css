@@ -10,8 +10,34 @@
     --light: #eee;
 }
 
-* {
-    box-sizing: border-box
+@media(min-width:35em) {
+    .\31 {
+        width: 5%
+    }
+    .\32 {
+        width: 13%
+    }
+    .\33 {
+        width: 22%
+    }
+    .\34 {
+        width: 31%
+    }
+    .\35 {
+        width: 39%
+    }
+    .\36 {
+        width: 48%
+    }
+    .row {
+        width: 100%;
+        display: table;
+        border-spacing: 1em
+    }
+    .col {
+        display: table-cell
+    }
+    
 }
 
 td,
@@ -19,11 +45,6 @@ th {
     padding: 1em;
     text-align: left;
     border-bottom: solid var(--light)
-}
-
-.col {
-    float: left;
-    width: 100%
 }
 
 .card,
@@ -44,7 +65,6 @@ pre {
     width: 100%
 }
 
-.row,
 pre {
     overflow: auto
 }
@@ -53,8 +73,8 @@ body {
     font: 1em/1.6 var(--font)
 }
 
-h1 {
-    font: 300 2.5em var(--font);
+h6 {
+    font: 300 1em var(--font);
     margin: .4em 0
 }
 
@@ -78,8 +98,8 @@ h5 {
     margin: .4em 0
 }
 
-h6 {
-    font: 300 1em var(--font);
+h1 {
+    font: 300 2.5em var(--font);
     margin: .4em 0
 }
 
@@ -119,44 +139,6 @@ hr {
     outline: 0
 }
 
-@media(min-width:35em) {
-    .col {
-        margin: 1%
-    }
-    .row {
-        margin: 0 -1%
-    }
-    .\31.col {
-        width: 5%
-    }
-    .\32.col {
-        width: 13%
-    }
-    .\33.col {
-        width: 22%
-    }
-    .\34.col {
-        width: 31%
-    }
-    .\35.col {
-        width: 39%
-    }
-    .\36.col {
-        width: 48%
-    }
-    .\37.col {
-        width: 57%
-    }
-    .\38.col {
-        width: 65%
-    }
-    .\39.col {
-        width: 74%
-    }
-    .\31 0.col {
-        width: 83%
-    }
-    .\31 1.col {
-        width: 91%
-    }
+* {
+    box-sizing: border-box
 }
