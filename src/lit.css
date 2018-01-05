@@ -32,7 +32,7 @@
     .row {
         width: 100%;
         display: table;
-        border-spacing: 1em
+        border-spacing: 1em 0
     }
     .col {
         display: table-cell

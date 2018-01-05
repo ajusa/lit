@@ -10,20 +10,23 @@
     <!-- Link to your stylesheet here -->
     <link rel="stylesheet" href="dist/lit.css">
     <style>
-    .example-grid .col {
+    .example-grid .row {
         /*stolen from skeleton for the time being*/
-        background: #EEE;
         text-align: center;
         font-size: .8em;
-        padding: .3em;
         letter-spacing: .1rem;
+        margin: .8em 0;
+    }
+    .example-grid .col{
+        background: #EEE;
+        padding: .3em;
     }
     </style>
 </head>
 
 <body class="c">
     <h1>lit 🔥</h1>
-    <h5>world's smallest responsive css framework* (<a href="https://github.com/Ajusa/lit/blob/master/dist/lit.css.zip">456 bytes</a> gzipped and minified)</h5>
+    <h5>world's smallest responsive css framework* (<a href="https://github.com/Ajusa/lit/blob/master/dist/lit.css.zip">458 bytes</a> gzipped and minified)</h5>
     <p>This is the result of me playing css "code golf" with <a href="http://www.getskeleton.com">Skeleton</a>. As such, this framework strives to maintain all of the features that Skeleton and other similar frameworks (Milligram, Min... etc) offer.</p>
     <p>Any other thoughts? Head to the Github link below and make an issue! If you like this idea, don't forget to star!</p>
     <div>
@@ -108,6 +111,7 @@
         <a class="1 col" href="#">Docs</a>
         <a class="1 col" href="#">Login</a>
     </div>
+    <br>
     <pre><code>
     &lt;div class=&quot;row&quot;&gt;
         &lt;b class=&quot;1 col&quot;&gt;Brand&lt;/b&gt;
@@ -165,12 +169,15 @@
                 </select>
             </div>
         </div>
-        <label>Message</label>
+        <div class="row">
+            <label>Message</label>
         <textarea class="card w-100" placeholder="Some information here"></textarea>
         <input type="checkbox">
         <span>I am not a robot</span>
         <hr>
         <input class="btn primary" type="button" value="Submit">
+        </div>
+        
     </form>
     <h4>Tables</h4>
     <table class="w-100">
@@ -185,7 +192,7 @@
             <tr>
                 <td>lit</td>
                 <td>Full</td>
-                <td>456</td>
+                <td>458</td>
             </tr>
             <tr>
                 <td>Skeleton</td>
@@ -221,19 +228,19 @@
     </table>
     <h4>Cards</h4>
     <div class="row">
-        <div class="card 4 col">
+        <div class="card col">
             <h4>Card Title</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur adipisci, asperiores odit repellat, explicabo expedita atque aut illum. </p>
             <button class="btn">Okay</button>
             <button class="btn primary">Cancel</button>
         </div>
-        <div class="card 4 col">
+        <div class="card col">
             <h4>Card Title</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur adipisci, asperiores odit repellat, explicabo expedita atque aut illum. </p>
             <button class="btn">Okay</button>
             <button class="btn primary">Cancel</button>
         </div>
-        <div class="card 4 col">
+        <div class="card col">
             <h4>Card Title</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur adipisci, asperiores odit repellat, explicabo expedita atque aut illum. </p>
             <button class="btn">Okay</button>
