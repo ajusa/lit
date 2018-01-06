@@ -1,8 +1,17 @@
 # lit 🔥
 
-a ridiculously small css framework.
+a ridiculously small responsive css framework.
 
-I challenged myself to see how small I could go, but preserve everything Skeleton, Milligram, and other micro frameworks have to offer. 
+I challenged myself to see how small I could go, but preserve everything Skeleton, Milligram, and other micro frameworks have to offer.
+## Features
+* 12 Column Responsive Grid
+* Typography for h1-h6, and body text
+* Three types of buttons
+* Cards
+* Inputs
+* Table Styles
+
+and a little bit more...
 
 ## Getting Started
 1. Download [lit.css](https://github.com/Ajusa/lit/blob/master/dist/lit.css)
