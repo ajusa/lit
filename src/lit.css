@@ -51,6 +51,7 @@
     padding: 1em;
     max-width: 60em;
     margin: auto;
+    font: 1em/1.6 var(--font)
 }
 
 .card,
@@ -64,10 +65,6 @@ pre {
 hr {
     border: solid var(--primary-color);
     outline: 0
-}
-
-body {
-    font: 1em/1.6 var(--font)
 }
 
 pre {
