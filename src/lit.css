@@ -5,38 +5,45 @@
 */
 
 :root {
-    --font: Nunito;
+    --font: nunito;
     --primary-color: #fa0;
     --light: #eee;
 }
+
+
 
 @media(min-width:35em) {
     .col {
         display: table-cell
     }
+
     .\31 {
         width: 5%
     }
+
     .\33 {
         width: 22%
     }
+
     .\34 {
         width: 31%
     }
+
     .\35 {
         width: 39%
     }
+
     .\32 {
         width: 13%
     }
+
     .row {
-        width: 100%;
         display: table;
         border-spacing: 1em 0
     }
 }
 
-.w-100 {
+.w-100, .row {
     width: 100%
 }
 
@@ -50,7 +57,7 @@
 pre {
     padding: 1em;
     border: solid var(--light);
-    margin: 0 0 1em
+    margin: .5em 0
 }
 
 .card:focus,
@@ -69,32 +76,32 @@ pre {
 
 h6 {
     font: 300 1em var(--font);
-    margin: .4em 0
+    margin: .5em 0
 }
 
 h5 {
     font: 300 1.3em var(--font);
-    margin: .4em 0
+    margin: .5em 0
 }
 
 h3 {
     font: 300 1.9em var(--font);
-    margin: .4em 0
+    margin: .5em 0
 }
 
 h4 {
-    font: 300 1.6em var(--font);
-    margin: .4em 0
+    font: 300 1.5em var(--font);
+    margin: .5em 0
 }
 
 h2 {
     font: 300 2.2em var(--font);
-    margin: .4em 0
+    margin: .5em 0
 }
 
 h1 {
     font: 300 2.5em var(--font);
-    margin: .4em 0
+    margin: .5em 0
 }
 
 a {
@@ -105,19 +112,17 @@ a {
 .btn.primary {
     color: #fff;
     background: var(--primary-color);
-    border: none
+    border: solid var(--primary-color)
 }
 
-.btn:hover {
-    transform: scale(1.1)
-}
 
 * {
     box-sizing: border-box
 }
 
-a:hover {
-    opacity: .5
+a:hover,
+.btn:hover {
+    opacity: .6
 }
 
 td,
@@ -129,10 +134,9 @@ th {
 
 .btn {
     letter-spacing: .1em;
-    transition: .2s;
-    padding: 1em 1.3em;
+    padding: 1em;
     text-transform: uppercase;
     background: none;
     border: solid;
-    font-size: .8em;
+    font-size: .7em;
 }
