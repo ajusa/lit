@@ -82,7 +82,7 @@ h5 {
 }
 
 h3 {
-    font: 300 1.9em var(--font);
+    font: 300 2em var(--font);
     margin: .5em 0
 }
 
@@ -135,5 +135,5 @@ th {
     text-transform: uppercase;
     background: none;
     border: solid;
-    font-size: .7em;
+    font: .7em var(--font)
 }
