@@ -16,25 +16,20 @@
     .col {
         display: table-cell
     }
-
     .\31 {
         width: 5%
     }
-
     .\33 {
         width: 22%
     }
-
     .\34 {
-        width: 31%
+        width: 30%
     }
-
     .\35 {
-        width: 39%
+        width: 40%
     }
-
     .\32 {
-        width: 13%
+        width: 15%
     }
     .row {
         display: table;
@@ -42,7 +37,8 @@
     }
 }
 
-.w-100, .row {
+.w-100,
+.row {
     width: 100%
 }
 
