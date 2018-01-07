@@ -36,7 +36,6 @@
     .\32 {
         width: 13%
     }
-
     .row {
         display: table;
         border-spacing: 1em 0
@@ -114,7 +113,7 @@ a {
 
 
 * {
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
 a:hover,
