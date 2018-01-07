@@ -48,17 +48,17 @@
 }
 
 .c {
-    padding: 1em;
     max-width: 60em;
+    font: 1em/1.6 var(--font);
+    padding: 1em;
     margin: auto;
-    font: 1em/1.6 var(--font)
 }
 
 .card,
 pre {
-    padding: 1em;
     border: solid var(--light);
-    margin: .5em 0
+    padding: 1em;
+    margin: .5em 0;
 }
 
 .card:focus,
@@ -73,32 +73,32 @@ pre {
 
 h6 {
     font: 300 1em var(--font);
-    margin: .5em 0
+    margin: .5em 0;
 }
 
 h5 {
     font: 300 1.3em var(--font);
-    margin: .5em 0
+    margin: .5em 0;
 }
 
 h3 {
     font: 300 2em var(--font);
-    margin: .5em 0
+    margin: .5em 0;
 }
 
 h4 {
     font: 300 1.5em var(--font);
-    margin: .5em 0
+    margin: .5em 0;
 }
 
 h2 {
     font: 300 2.2em var(--font);
-    margin: .5em 0
+    margin: .5em 0;
 }
 
 h1 {
     font: 300 2.5em var(--font);
-    margin: .5em 0
+    margin: .5em 0;
 }
 
 a {
@@ -107,7 +107,7 @@ a {
 }
 
 .btn.primary {
-    color: #fff;
+    color: white;
     background: var(--primary-color);
     border: solid var(--primary-color)
 }
@@ -130,8 +130,8 @@ th {
 }
 
 .btn {
-    letter-spacing: .1em;
     padding: 1em;
+    letter-spacing: .1em;
     text-transform: uppercase;
     background: none;
     border: solid;
