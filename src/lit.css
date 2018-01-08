@@ -39,6 +39,7 @@
         border-spacing: 1em 0;
     }
 }
+
 .w-100,
 .row {
     width: 100%;
@@ -53,19 +54,20 @@
 
 .card,
 pre {
-    border: solid var(--light);
     padding: 1em;
+    border: solid var(--light);
 }
-pre {
-    overflow: auto;
+
+a:hover,
+.btn:hover {
+    opacity: .6;
 }
+
 .card:focus,
 hr {
-    border: solid var(--primary-color);
     outline: 0;
+    border: solid var(--primary-color);
 }
-
-
 
 h6 {
     font: 300 1em var(--font);
@@ -102,13 +104,10 @@ a {
     border: solid var(--primary-color);
 }
 
-
-
-
-a:hover,
-.btn:hover {
-    opacity: .6;
+pre {
+    overflow: auto;
 }
+
 
 td,
 th {
