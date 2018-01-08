@@ -45,11 +45,10 @@
     width: 100%;
 }
 
-.c {
-    max-width: 60em;
-    font: 1em/1.6 var(--font);
-    padding: 1em;
-    margin: auto;
+.card:focus,
+hr {
+    outline: 0;
+    border: solid var(--primary-color);
 }
 
 .card,
@@ -58,15 +57,18 @@ pre {
     border: solid var(--light);
 }
 
+
 a:hover,
 .btn:hover {
     opacity: .6;
 }
 
-.card:focus,
-hr {
-    outline: 0;
-    border: solid var(--primary-color);
+
+.c {
+    max-width: 60em;
+    padding: 1em;
+    margin: auto;
+    font: 1em/1.6 var(--font);
 }
 
 h6 {
@@ -99,7 +101,7 @@ a {
 }
 
 .btn.primary {
-    color: white;
+    color: #fff;
     background: var(--primary-color);
     border: solid var(--primary-color);
 }
