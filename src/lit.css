@@ -39,7 +39,6 @@
         border-spacing: 1em 0;
     }
 }
-
 .w-100,
 .row {
     width: 100%;
@@ -57,15 +56,16 @@ pre {
     border: solid var(--light);
     padding: 1em;
 }
+pre {
+    overflow: auto;
+}
 .card:focus,
 hr {
     border: solid var(--primary-color);
     outline: 0;
 }
 
-pre {
-    overflow: auto;
-}
+
 
 h6 {
     font: 300 1em var(--font);
