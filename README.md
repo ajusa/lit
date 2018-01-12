@@ -24,9 +24,8 @@ include the lit.css file in the src directory. Otherwise, use the dist/lit.css f
 ## Development Setup
 1. Clone this repository (https://www.github.com/ajusa/lit)
 2. Make sure you have [npm](https://www.npmjs.com/get-npm) installed
-3. Run `npm install` in the root directory of lit
-4. Install [gulp](https://github.com/gulpjs/gulp) **globally**. You will need to make sure that the `-g` flag is in the command, like `npm install -g gulp@next`
-5. Once that is completed, run `gulp` to build the minified version and the gzipped file.
-6. If you are making changes live, use `gulp watch`. `watch` will build the minified css file in dist whenever there is a change in `src/lit.css`.
+3. Run `npm install` in the root directory of `lit`
+4. Once that is completed, run `npm run build` to build the minified version and the gzipped file.
+5. If you are making changes live, use `npm run watch`. `watch` will build the minified css file in `./dist` whenever there is a change in `./src/lit.css`.
 
 [Docs](https://ajusa.github.io/lit/)

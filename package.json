@@ -4,7 +4,8 @@
   "description": "a sub 600 byte css framework",
   "main": "lit.css",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "gulp",
+    "watch": "gulp watch"
   },
   "repository": {
     "type": "git",
