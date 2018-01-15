@@ -1,5 +1,8 @@
 # lit 🔥
-
+<a href="https://twitter.com/intent/tweet?text=World's+smallest+responsive+CSS+framework:&url=https%3A%2F%2Fgithub.com%2Fajusa%2Flit&hashtags=github&original_referer=http%3A%2F%2Fgithub.com%2F&tw_p=tweetbutton" target="_blank">
+  <img src="http://jpillora.com/github-twitter-button/img/tweet.png"
+       alt="tweet button" title="lit"></img>
+</a>
 a ridiculously small responsive css framework.
 
 I challenged myself to see how small I could go, but preserve everything Skeleton, Milligram, and other micro frameworks have to offer.
