@@ -25,6 +25,10 @@ and a little bit more...
 Note: lit uses PostCSS to transform from CSSNext to CSS3. If you are comfortable outright using CSSNext, you can directly
 include the lit.css file in the src directory. Otherwise, use the dist/lit.css file.
 
+## Supported Browsers
+lit supports most modern browsers (Chrome, Firefox, Edge, Opera) but it also has impressive support for older browsers.
+lit has been tested on Internet Explorer 11 with no issues.
+
 ## Development Setup
 1. Clone this repository (https://www.github.com/ajusa/lit)
 2. Make sure you have [npm](https://www.npmjs.com/get-npm) installed
