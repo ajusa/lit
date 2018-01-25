@@ -99,7 +99,7 @@ a {
 }
 
 .btn.primary {
-    color: #fff;
+    color: white;
     background: var(--primary-color);
     border: solid var(--primary-color);
 }
@@ -119,7 +119,7 @@ th {
     padding: 1em;
     letter-spacing: .1em;
     text-transform: uppercase;
-    background: none;
+    background: white;
     border: solid;
     font: .7em var(--font);
 }
