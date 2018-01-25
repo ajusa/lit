@@ -23,9 +23,10 @@
   "devDependencies": {
     "gulp": "^4.0.0",
     "gulp-clean-css": "^3.9.2",
-    "gulp-gzip": "^1.4.1",
     "gulp-postcss": "^7.0.1",
     "postcss-css-variables": "^0.8.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "gulp-zopfli": "^1.0.0"
+  }
 }
