@@ -57,12 +57,10 @@ pre {
     border: solid var(--light);
 }
 
-
 a:hover,
 .btn:hover {
     opacity: .6;
 }
-
 
 .c {
     max-width: 60em;
@@ -109,7 +107,6 @@ a {
 pre {
     overflow: auto;
 }
-
 
 td,
 th {
