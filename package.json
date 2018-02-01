@@ -24,9 +24,7 @@
     "gulp": "^4.0.0",
     "gulp-clean-css": "^3.9.2",
     "gulp-postcss": "^7.0.1",
+    "gulp-zopfli": "^1.0.0",
     "postcss-css-variables": "^0.8.0"
-  },
-  "dependencies": {
-    "gulp-zopfli": "^1.0.0"
   }
 }
