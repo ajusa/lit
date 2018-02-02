@@ -1,7 +1,7 @@
 {
   "name": "lit",
   "version": "1.0.0",
-  "description": "a sub 600 byte css framework",
+  "description": "a sub 400 byte css framework",
   "main": "lit.css",
   "scripts": {
     "build": "gulp",
