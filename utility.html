@@ -68,13 +68,15 @@
             <div class="card p1 b-white">b-white</div>
         </div>
         <div id="misc">
-            <h3 class="mb1">Misc</h3> 
+            <h3 class="mb1">Misc</h3>
         </div>
         <h2 class="mb1" id="components">Components</h2>
         <p>For now, use the "view source" functionality of your browser as documentation</p>
         <div class="card p1 b-accent">
             <a href="#buttons" class="ph2">Buttons</a>
             <a href="#alerts" class="ph2">Alerts</a>
+            <a href="#navbar" class="ph2">Navbar</a>
+            <a href="#badges" class="ph2">Badges</a>
             <a href="#full" class="ph2">Full Page Landing</a>
         </div>
         <div id="buttons">
@@ -118,12 +120,47 @@
         </div>
         <div id="alerts">
             <h3 class="mb1">Alerts</h3>
-            <div class="bg-error white pv1 ph2 rounded row">
+            <div class="bg-error white pv1 ph2 rounded">
+                <p class="large m0">Oh no!</p>
+                This is an example of an error alert
+            </div>
+            <div class="bg-warning white pv1 ph2 rounded">
+                This is an example of a warning alert
+            </div>
+        </div>
+        <div id="navbar">
+            <h3 class="mb1">Navbar</h3>
+            <div class="bg-success pv2 row">
                 <div class="col">
-                    <p class="large m0">Oh no!</p>
-                    <p>This is an example of an error alert</p>
+                    <a href="#buttons" class="white ph2">Menu</a>
+                    <a href="#alerts" class="white ph2">Item</a>
+                    <a href="#navbar" class="white ph2">Blog</a>
                 </div>
-                <div class="col large">x</div>
+                <div class="2 col">
+                    <a href="#full" class="white ph2">Download</a>
+                </div>
+            </div>
+        </div>
+        <div id="badges">
+            <h3 class="mb1">Badges</h3>
+            <h4>Heading Badge <span class="bg-warning bold white ph1 rounded">
+               New
+            </span></h4>
+            <button class="rounded btn bg-info b-info white">Button Badge <span class="bg-white bold black ph1 rounded">
+               5
+            </span></button>
+        </div>
+        <div id="list-group">
+            <h3 class="mb1">List Groups</h3>
+            <div class="inline card p0 rounded">
+            	<div class="card m0">Some item that is long</div>
+            	<div class="card m0">Some item</div>
+            	<div class="card m0">Some item, that exists</div>
+            </div>
+            <div class="inline card p0 rounded">
+            	<div class="card m0 bg-accent white">Selected Item</div>
+            	<div class="card m0">Some item</div>
+            	<div class="card m0">Some item, that exists</div>
             </div>
         </div>
     </div>
