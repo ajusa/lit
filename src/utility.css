@@ -1,22 +1,78 @@
 :root {
     --font: nunito;
     --primary-color: #fa0;
-    --light: #eee;
+    --warning-color: #ffd600;
+    --error-color: #d50000;
+    --success-color: #00c853;
+    --info-color: #2962ff;
 }
 
 /*Colors*/
-.black{
-	color: #000;
-}
+
 .white{
 	color: #FFF;
-}
-.bg-black{
-	background-color: #000;
 }
 .bg-white{
 	background-color: #FFF;
 }
+.b-white{
+	border-color: #FFF;
+}
+.black{
+	color: #000;
+}
+.bg-black{
+	background-color: #000;
+}
+.b-black{
+	border-color: #000;
+}
+.accent {
+	color: var(--primary-color);
+}
+.bg-accent {
+	background-color: var(--primary-color);
+}
+.b-accent {
+	border-color: var(--primary-color);
+}
+.warning {
+	color: var(--warning-color);
+}
+.bg-warning {
+	background-color: var(--warning-color);
+}
+.b-warning {
+	border-color: var(--warning-color);
+}
+.error {
+	color: var(--error-color);
+}
+.bg-error {
+	background-color: var(--error-color);
+}
+.b-error {
+	border-color: var(--error-color);
+}
+.success {
+	color: var(--success-color);
+}
+.bg-success {
+	background-color: var(--success-color);
+}
+.b-success {
+	border-color: var(--success-color);
+}
+.info {
+	color: var(--info-color);
+}
+.bg-info {
+	background-color: var(--info-color);
+}
+.b-info {
+	border-color: var(--info-color);
+}
+
 /*Margin+Padding*/
 
 .m0 {
@@ -199,6 +255,9 @@
 .pill {
   border-radius: 9999px;
 }
+.rounded {
+  border-radius: 4px;
+}
 .tc {
     text-align: center;
 }
@@ -211,6 +270,12 @@
 .small{
 	font-size: .7em;
 }
+.caps {
+	text-transform: uppercase;
+}
+.tracked {
+	letter-spacing: .1em;
+}
 .vh-100 {
     height: 100vh;
 }
@@ -218,7 +283,15 @@
 .inline {
     display: inline-block;
 }
-
+.bold {
+	font-weight: 700
+}
+.normal {
+	font-weight: 400
+}
+.light{
+	font-weight: 300
+}
 .dim {
     opacity: 1;
     transition: opacity .15s ease-in;

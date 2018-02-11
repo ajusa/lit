@@ -10,7 +10,7 @@
     --light: #eee;
 }
 
-* {
+* + *{
     box-sizing: border-box;
     margin: .5em 0;
 }
