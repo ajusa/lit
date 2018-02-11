@@ -17,12 +17,32 @@
 <body class="m0">
     <div class="tc vh-100 bg-accent">
         <div class="vc c white">
-            <h1 class="mega mb0">Utility</h1>
+            <h1 class="mega mb0">Util</h1>
             <p class="large mb2">A simple, framework agnostic 675 byte CSS library</p>
-            <a class="btn bg-accent white pill ph4" href="#components">Continue</a>
+            <a class="btn bg-accent white pill ph4" href="#utilities">Utilities</a>
+            <a class="btn bg-white accent pill ph4" href="#components">Components</a>
+            
         </div>
     </div>
     <div class="c">
+    	<h2 class="mb1" id="utilities">Utilities</h2>
+        <p>For now, use the "view source" functionality of your browser as documentation</p>
+        <div class="card">
+            <a href="#spacing" class="ph2">Spacing</a>
+            <a href="#colors" class="ph2">Colors</a>
+            <a href="#misc" class="ph2">Misc</a>
+        </div>
+        <div id="spacing">
+        	<h3 class="mb1">Spacing</h3>
+        	Util uses a simple spacing system inspired by the likes of BassCSS and Tachyons.
+			<div class="bg-accent white ph1 pv2">ph2 pv2</div>
+			In this example, p means padding (m means margin), h means horizontal while v means vertical, and the number at the end is the level. Levels go from 0-4.
+			<div class="bg-accent white ml1 mt2">ml1 mt2</div>
+			This example shows off margins. For the middle selector, you use t (top), b (bottom), l (left), and r (right) to say which direction you want the margin.
+			Margin does not have v or h as directions.
+			<div class="bg-accent white p2 m2">p2 m2</div>
+			If you want something on all sides, just do the above, with type then level.
+        </div>
         <h2 class="mb1" id="components">Components</h2>
         <p>For now, use the "view source" functionality of your browser as documentation</p>
         <div class="card">
