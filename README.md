@@ -17,6 +17,8 @@ I challenged myself to see how small I could go, but preserve everything Skeleto
 
 and a little bit more...
 
+## util
+util is an atomic css addon for lit. It is currently a work in progress, but feel free to check it out at (https://ajusa.github.io/lit/)
 ## Getting Started
 1. Install lit.css with one of the following:
   - NPM: `npm install --save @ajusa/lit`
