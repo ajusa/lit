@@ -1,6 +1,6 @@
 {
   "name": "@ajusa/lit",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "a sub 400 byte css framework",
   "main": "lit.css",
   "scripts": {
