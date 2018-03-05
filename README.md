@@ -18,12 +18,12 @@ I challenged myself to see how small I could go, but preserve everything Skeleto
 and a little bit more...
 
 ## util
-util is an atomic css addon for lit. It is currently a work in progress, but feel free to check it out at https://ajusa.github.io/lit/util.html
+util is an atomic css addon for lit. It is currently a work in progress, but feel free to check it out at https://ajusa.github.io/lit/docs/util.html
 ## Getting Started
 1. Install lit.css with one of the following:
   - NPM: `npm install --save @ajusa/lit`
-  - CSS3: `<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ajusa/lit@1.0.0/dist/lit.css)" />`
-  - CSSNext: `<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ajusa/lit@1.0.0/src/lit.css)" />`
+  - CSS3: `<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ajusa/lit@latest/dist/lit.css" />`
+  - CSSNext: `<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ajusa/lit@latest/src/lit.css" />`
 2. [Read the Docs](https://ajusa.github.io/lit/) to see usage
 
 Note: lit uses PostCSS to transform from CSSNext to CSS3. If you are comfortable outright using CSSNext, you can directly
