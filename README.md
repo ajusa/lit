@@ -1,4 +1,11 @@
 # lit 🔥
+
+[![npm](https://img.shields.io/npm/v/@ajusa/lit.svg)](https://www.npmjs.com/package/@ajusa/lit)
+[![size](http://img.badgesize.io/https://cdn.jsdelivr.net/npm/@ajusa/lit@latest/src/lit.css?compression=gzip)](https://cdn.jsdelivr.net/npm/@ajusa/lit@latest/src/lit.css)
+[![install size](https://packagephobia.now.sh/badge?p=@ajusa/lit)](https://packagephobia.now.sh/result?p=@ajusa/lit)
+[![Downloads](https://img.shields.io/npm/dt/@ajusa/lit.svg)](https://www.npmjs.com/package/@ajusa/lit)
+[![Dependency Status](https://david-dm.org/styfle/@ajusa/lit.svg)](https://david-dm.org/styfle/@ajusa/lit)
+[![devDependency Status](https://david-dm.org/styfle/@ajusa/lit/dev-status.svg)](https://david-dm.org/styfle/@ajusa/lit#info=devDependencies)
 <a href="https://twitter.com/intent/tweet?text=World's+smallest+responsive+CSS+framework:&url=https%3A%2F%2Fgithub.com%2Fajusa%2Flit&hashtags=github&original_referer=http%3A%2F%2Fgithub.com%2F&tw_p=tweetbutton" target="_blank">
   <img src="http://jpillora.com/github-twitter-button/img/tweet.png"
        alt="tweet button" title="lit"></img>
