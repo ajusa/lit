@@ -122,4 +122,5 @@ th {
     background: white;
     border: solid;
     font: .7em var(--font);
+    cursor:pointer;
 }
