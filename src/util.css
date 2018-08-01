@@ -1,5 +1,6 @@
 :root {
     --font: nunito;
+    --gray-color: #CCC;
     --primary-color: #fa0;
     --warning-color: #ffd600;
     --error-color: #d50000;
@@ -17,6 +18,15 @@
 }
 .b-white{
 	border-color: #FFF;
+}
+.gray{
+    color: var(--gray-color);
+}
+.bg-gray{
+    background-color: var(--gray-color);
+}
+.b-gray{
+    border-color: var(--gray-color);
 }
 .black{
 	color: #000;
@@ -246,7 +256,9 @@
 }
 
 /*Misc Utilities*/
-
+.gapless{
+    border-spacing: 0;
+}
 .vc {
     position: relative;
     top: 40%;
