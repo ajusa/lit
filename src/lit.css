@@ -34,6 +34,9 @@
     .\32 {
         width: 15%;
     }
+    .\36 {
+        width: 50%;
+    }
     .row {
         display: table;
         border-spacing: 1em 0;
