@@ -1,11 +1,10 @@
 /*
 * Lit v0.1
 * Primary Color set to: #FA0
-* Font set to: Nunito
 */
 
 :root {
-    --font: nunito;
+    --font: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --primary-color: #fa0;
     --light: #eee;
 }
@@ -87,27 +86,27 @@ a:hover,
 }
 
 h6 {
-    font: 100 1em var(--font);
+    font: 400 1em var(--font);
 }
 
 h5 {
-    font: 100 1.2em var(--font);
+    font: 400 1.2em var(--font);
 }
 
 h3 {
-    font: 100 2em var(--font);
+    font: 400 2em var(--font);
 }
 
 h4 {
-    font: 100 1.5em var(--font);
+    font: 400 1.5em var(--font);
 }
 
 h2 {
-    font: 100 2.2em var(--font);
+    font: 400 2.2em var(--font);
 }
 
 h1 {
-    font: 100 2.5em var(--font);
+    font: 400 2.5em var(--font);
 }
 
 a {
@@ -134,4 +133,12 @@ th {
     background: white;
     border: solid;
     font: .7em var(--font);
+}
+
+a.btn {
+    display: inline-block;
+}
+
+select, input {
+    font-family: var(--font);
 }
